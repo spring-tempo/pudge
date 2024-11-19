@@ -1,0 +1,109 @@
+:root {
+    --black: #2b2a2c;
+    --gray: #6a696b;
+    --gray-light: #dedede;
+    --white: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: var(--white);
+    height: 100vh;
+    background-image: url(images/fonstola.ru_244742.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.border_for_all {
+    width: 400px;
+    height: auto;
+    border: rgba(0, 0, 0, 0.1) solid 2px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px black;
+}
+
+.about_pudge {
+    text-shadow: 0 0 50px #ffffff, 0 0 50px #ffffff, 0 0 30px #ffffff;
+}
+
+.pic_pudge {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.about_pudge>h1 {
+    margin-bottom: 50px;
+}
+
+.short_discription>p {
+    font-size: 1.1rem;
+    margin-bottom: 100px;
+}
+
+.btn_contact {
+    width: 110.06px;
+    height: 50px;
+    margin-bottom: 250px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.35);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transition: background-color 0.3s ease;
+}
+
+.btn_contact:hover {
+    transform: translateY(-3px);
+    background-color: rgba(139, 0, 255, 0.3);
+
+}
+
+.link {
+    margin-bottom: 30px;
+}
+
+.Network_social_link {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px #ffffff, 0 0 10px #ffffff, 0 0 30px #ffffff;
+}
